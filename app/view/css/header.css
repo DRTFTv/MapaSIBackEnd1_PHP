@@ -1,0 +1,74 @@
+header {
+  /*size - position*/
+  width: 100vw;
+
+  /*style*/
+  background-color: var(--primary-color);
+ 
+  /*grid*/
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6vh;
+}
+
+.logo {
+  /*size - position*/
+  margin: 2vh 0 2vh 8vh;
+
+  /*style*/
+ 
+  /*grid*/
+}
+
+.logoIcon {
+  /*size - position*/
+
+  /*style*/
+  font-size: 10vh;
+
+  /*grid*/
+}
+
+.logoTitle {
+  /*size - position*/
+ 
+  /*style*/
+  color: var(--secondary-color);
+  font-size: 6vh;
+
+  /*grid*/
+}
+
+.logoSubtitle {
+  /*size - position*/
+ 
+  /*style*/
+  color: var(--secondary-color);
+
+  /*grid*/
+}
+
+.menu {
+  /*size - position*/
+  margin: 2vh 8vh 2vh 0;
+
+
+  /*style*/
+ 
+  /*grid*/
+  gap: 6vh;
+}
+
+.menu a{
+  /*size - position*/
+  
+  /*style*/
+  cursor: pointer;
+  color: var(--tertiary-color);
+  text-decoration: none;
+ 
+  /*grid*/
+}

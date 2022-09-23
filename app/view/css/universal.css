@@ -1,0 +1,50 @@
+* {
+  /*size - position*/
+  margin: 0;
+  padding: 0;
+ 
+  /*style*/
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 2vh;
+
+
+  /*grid*/
+ 
+  /*var*/
+  --primary-color: #f8b235;
+  --secondary-color: #785519;
+  --tertiary-color: #FC7528;
+}
+
+::-webkit-scrollbar {
+  /*size - position*/
+  width: 0;
+  
+ /*style*/
+  
+  /*grid*/
+}
+
+.row {
+  /*size - position*/
+ 
+  /*style*/
+ 
+  /*grid*/
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.col {
+  /*size - position*/
+ 
+  /*style*/
+ 
+  /*grid*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

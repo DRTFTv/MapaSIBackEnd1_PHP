@@ -1,0 +1,85 @@
+footer {
+  /*size - position*/
+  width: 100vw;
+
+  /*style*/
+  background-color: var(--primary-color);
+ 
+  /*grid*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center ;
+  gap: 2vh;
+}
+
+.footerTitle {
+  /*size - position*/
+  width: 95%;
+  margin: 2vh 0 0 0;
+
+  /*style*/
+  text-align: left;
+  font-weight: bold;
+  font-size: 2.4vh;
+ 
+  /*grid*/
+}
+
+.footerContainer {
+  /*size - position*/
+  width: 95%;
+  margin: 2vh 0 0 0;
+
+  /*style*/
+ 
+  /*grid*/
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 6vh;
+}
+
+.footerItem {
+  /*size - position*/
+ 
+  /*style*/
+ 
+  /*grid*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0.8vh;
+}
+
+.footerItem p {
+  /*size - position*/
+  margin: 0 0 2vh 0;
+
+  /*style*/
+  font-weight: bold;
+
+  /*grid*/
+}
+
+.footerItem a {
+  /*size - position*/
+  
+  /*style*/
+  cursor: pointer;
+  color: black;
+  text-decoration: none;
+ 
+  /*grid*/
+}
+
+.signature {
+  /*size - position*/
+  margin: 0 0 2vh 0;
+
+  /*style*/
+ 
+  /*grid*/
+}

@@ -1,0 +1,233 @@
+.imageHeader {
+  /*size - position*/
+  width: 100vw;
+  height: 50vh;
+
+  /*style*/
+  background-image: url(../../lib/image01.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+ 
+  /*grid*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2vh;
+}
+
+.imageHeaderTitle {
+  /*size - position*/
+  
+  /*style*/
+  text-align: center;
+  font-weight: bold;
+  font-size: 6vh;
+  text-shadow: 0 0 2vh black;
+ 
+  /*grid*/
+}
+
+.imageHeaderSubtitle {
+  /*size - position*/
+ 
+  /*style*/
+  text-align: center;
+  font-size: 4vh;
+  text-shadow: 0 0 2vh black;
+ 
+  /*grid*/
+}
+
+.imageHeaderButton {
+  /*size - position*/
+  padding: 2vh 4vh 2vh 4vh;
+
+  /*style*/
+  color: white;
+  background-color: var(--tertiary-color);
+  border: none;
+  border-radius: .6vh;
+  box-shadow: 0 0 2vh black;
+  transition: .2s;
+  
+  /*grid*/
+}
+
+.imageHeaderButton:hover {
+  /*size - position*/
+  padding: 2vh 4vh 2vh 4vh;
+
+  /*style*/
+  color: var(--tertiary-color);
+  background-color: white;
+  border: none;
+  border-radius: .6vh;
+  
+  /*grid*/
+}
+
+.container {
+  /*size - position*/
+  width: 100vw;
+
+  /*style*/
+ 
+  /*grid*/
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.containerTitle {
+  /*size - position*/
+  width: 95%;
+  margin: 2vh 0 0 0;
+
+  /*style*/
+  font-weight: bold;
+  font-size: 4vh;
+
+  /*grid*/
+}
+
+.containerSubtitle {
+  /*size - position*/
+  width: 95%;
+  margin: .8vh 0 2vh 0;
+
+  /*style*/
+
+  /*grid*/
+}
+
+.listCard {
+  /*size - position*/
+  width: 95%;
+  margin: 0 0 2vh 0;
+
+  /*style*/
+ 
+  /*grid*/
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6vh;
+}
+
+.card {
+  /*size - position*/
+
+  /*style*/
+ 
+  /*grid*/
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 0.8vh;
+}
+
+.cardImage{
+  /*size - position*/
+  width: 40vh;
+  height: 25vh;
+
+  /*style*/
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /*grid*/
+}
+
+.cardTitle {
+  /*size - position*/ 
+  width: 100%;
+ 
+  /*style*/
+  text-align: left;
+ 
+  /*grid*/
+}
+
+.cardButton {
+  /*size - position*/
+  padding: 2vh 4vh 2vh 4vh;
+
+  /*style*/
+  cursor: pointer;
+  color: black;
+  background-color: white;
+  border-radius: .6vh;
+  transition: .2s;
+  
+  /*grid*/
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2vh;
+}
+
+.cardButton:hover {
+  /*size - position*/
+  padding: 2vh 4vh 2vh 4vh;
+
+  /*style*/
+  color: white;
+  background-color: var(--tertiary-color);
+  border-radius: .6vh;
+  
+  /*grid*/
+}
+
+.cardButtonIcon {
+  /*size - position*/
+  height: 2vh;
+
+  /*style*/
+ 
+  /*grid*/
+}
+
+.cardDescription {
+  /*size - position*/
+  margin: 2vh 0 2vh 0;
+
+  /*style*/
+  
+  /*grid*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.cardDescriptionTitle {
+  /*size - position*/
+  
+  /*style*/
+  font-weight: bold;
+  
+  /*grid*/
+}
+
+.ingredients {
+  /*size - position*/
+  margin: 0 0 0 2vh;
+  
+  /*style*/
+ 
+  /*grid*/
+ 
+}
